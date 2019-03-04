@@ -14,3 +14,6 @@ sudo vi /etc/phpmyadmin/apache.conf
     Allow from 68.24.9.0/24
 
     <IfModule mod_php5.c>
+
+# Then restart apache
+sudo service apache2 restart
